@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi there! I'm Nadhem👋
 
-<!--
-**DevNadhem/DevNadhem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 Software Engineering Student | Data & ML Enthusiast
+I specialize in turning raw data into automated pipelines and predictive applications.
 
-Here are some ideas to get you started:
+- 🛠️ **Current Tech Stack:** Python, SQL (Data Warehousing), Scikit-Learn.
+- 🏗️ **Currently Building:** Automated Real Estate valuation systems for the Tunisian market.
+- 🎓 **Education:** 2nd Year Software Engineering Student @ MUST Tunisia.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🏆 Featured Project: [EstateWise-Tunisia]  (Work in progress)
+An end-to-end Machine Learning pipeline that:
+1. **Stores** property data in a custom SQL Warehouse.
+2. **Cleans** and transforms data via a Python ETL.
+3. **Predicts** house prices using Multiple Linear Regression.
+4. **Interfaces** via a modern Streamlit GUI.

@@ -9,7 +9,7 @@ I specialize in turning raw data into automated pipelines and predictive applica
 
 ---
 
-### 🏆 Featured Project: [EstateWise-Tunisia]  (Work in progress)
+### 🏆 Featured Project: [EstateWise-Tunisia](https://github.com/DevNadhem/Tunisia-Real-Estate-ML)
 An end-to-end Machine Learning pipeline that:
 1. **Stores** property data in a custom SQL Warehouse.
 2. **Cleans** and transforms data via a Python ETL.

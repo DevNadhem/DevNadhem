@@ -4,7 +4,6 @@
 I specialize in turning raw data into automated pipelines and predictive applications.
 
 - 🛠️ **Current Tech Stack:** Python, SQL (Data Warehousing), Scikit-Learn.
-- 🏗️ **Currently Building:** Automated Real Estate valuation systems for the Tunisian market.
 - 🎓 **Education:** 2nd Year Software Engineering Student @ MUST Tunisia.
 
 ---

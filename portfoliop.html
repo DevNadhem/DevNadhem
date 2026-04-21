@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadhem Zribi | Software Engineering Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2ecc71;
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --secondary-text: #b0b0b0;
+            --card-bg: #1e1e1e;
+            --border-color: #333;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(18, 18, 18, 0.95);
+            padding: 15px 0;
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover { color: var(--primary-color); }
+
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .hero img {
+            border-radius: 50%;
+            border: 4px solid var(--primary-color);
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+        .hero img:hover { transform: scale(1.05); }
+
+        .social-links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+
+        .btn-github { background: #333; color: white; }
+        .btn-linkedin { background: #0077b5; color: white; }
+
+        section { padding: 40px 0; border-bottom: 1px solid var(--border-color); }
+
+        h2 { color: var(--primary-color); border-left: 4px solid var(--primary-color); padding-left: 15px; }
+
+        .project-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 25px;
+            margin-top: 20px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #27ae6033;
+            color: var(--primary-color);
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-right: 5px;
+        }
+
+        .table-container { overflow-x: auto; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--card-bg);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid var(--border-color);
+        }
+
+        th { background-color: #252525; color: var(--primary-color); }
+
+        form { background: var(--card-bg); padding: 20px; border-radius: 10px; }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background: #252525;
+            border: 1px solid var(--border-color);
+            color: white;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        footer { text-align: center; padding: 40px 0; color: var(--secondary-text); font-size: 0.8rem; }
+        .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s, opacity 0.3s;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
+    background-color: #27ae60;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="about">
+        <img src="PM.png" alt="Nadhem Zribi" width="180" height="180">
+        <h1>Nadhem Zribi</h1>
+        <p style="color: var(--secondary-text); max-width: 600px; margin: 0 auto;">
+            <strong>2nd Year Software Engineering Student</strong> at MUST University. 
+            Passionate about building <strong>Machine Learning pipelines</strong> and automated data solutions.
+        </p>
+        <div class="social-links">
+            <a href="https://github.com/DevNadhem" class="btn btn-github" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/nadhem-zribi-b32241405/" class="btn btn-linkedin" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section id="projects">
+        <h2>Featured Project</h2>
+        <div class="project-card">
+            <h3>🏠 EstateWise-Tunisia: Real Estate Valuation System</h3>
+            <p>An end-to-end Machine Learning pipeline designed for the Tunisian property market.</p>
+            <ul>
+                <li><strong>Data:</strong> Automated ingestion into a custom SQL Warehouse.</li>
+                <li><strong>Engine:</strong> Python ETL for cleaning and Multiple Linear Regression for pricing.</li>
+                <li><strong>UI:</strong> Multilingual Streamlit interface (EN/FR/AR).</li>
+            </ul>
+            <div style="margin-top: 15px;">
+                <span class="tag">Python</span><span class="tag">Scikit-Learn</span><span class="tag">SQL</span><span class="tag">Streamlit</span>
+            </div>
+            <p style="margin-top:15px;">
+                <a href="https://tunisia-real-estate-ml-yygrbt2qvwxvpref8rablb.streamlit.app/" style="color: var(--primary-color);" target="_blank">🚀 View Live Demo</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Expertise</h2>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Technologies</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td><strong>Data Science</strong></td>
+                    <td>Python (Pandas, Scikit-Learn, NumPy)</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td><strong>Databases</strong></td>
+                    <td>SQL (SQLite, PostgreSQL)</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td><strong>Web Tech</strong></td>
+                    <td>HTML5, CSS3, Streamlit</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Academic Background</h2>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Institution</th>
+                    <th>Degree</th>
+                    <th>Year</th>
+                    <th>GPA</th>
+                </tr>
+                <tr>
+                    <td><strong>MUST University</strong></td>
+                    <td>Software Engineering</td>
+                    <td>Expected 2027</td>
+                    <td>2.0/4.0</td>
+                </tr>
+                <tr>
+                    <td><strong>Secondary School</strong></td>
+                    <td>Economical Baccalaureate</td>
+                    <td>2023</td>
+                    <td>11/20</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Work With Me</h2>
+        <form action="#" method="POST">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="email@example.com" required>
+            
+            <label>Service Needed</label>
+            <select name="service">
+                <option value="ml">Machine Learning Pipeline</option>
+                <option value="web">Web Development</option>
+                <option value="sql">SQL Database Design</option>
+            </select>
+            
+            <label>Message</label>
+            <textarea name="message" rows="4" placeholder="Tell me about your project..."></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nadhem Zribi. Built with Pythonic passion 🐍.</p>
+    </footer>
+    <a href="#about" class="back-to-top" title="Back to Top">↑</a>
+</body>
+</html>

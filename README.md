@@ -4,7 +4,7 @@
 I specialize in turning raw data into automated pipelines and predictive applications.
 
 - 🛠️ **Current Tech Stack:** Python, SQL (Data Warehousing), Scikit-Learn.
-- 🎓 **Education:** 3rd Year Software Engineering Student @ MUST Tunisia.
+- 🎓 **Education:** 3rd Year Student in Software Engineering @ MUST Tunisia.
 
 ---
 

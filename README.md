@@ -1,10 +1,10 @@
 # Hi there! I'm Nadhem👋
 
-### 🚀 Software Engineering Student | Data & ML Enthusiast
+### 🚀 Software Engineering & Information Systems | AI & ML Enthusiast
 I specialize in turning raw data into automated pipelines and predictive applications.
 
 - 🛠️ **Current Tech Stack:** Python, SQL (Data Warehousing), Scikit-Learn.
-- 🎓 **Education:** 2nd Year Software Engineering Student @ MUST Tunisia.
+- 🎓 **Education:** 3rd Year Software Engineering Student @ MUST Tunisia.
 
 ---
 
